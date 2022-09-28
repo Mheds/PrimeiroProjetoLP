@@ -6,12 +6,18 @@ body{
      color: #FFFFFF;
 }
 section{
-    padding: 20px;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 footer{
-    background-color:rgb(32, 12, 46);
-    padding: 20px;
+    background-color: #363535;
+    padding: 1%;
+    text-align: center;
+}
+footer img{
+    max-width: 25px;
+    
 }
 .img-topo{
     width: 100%;
@@ -32,10 +38,32 @@ nav {
     }
 nav li {
         display: inline-flex; 
-        text-transform: uppercase;
-        color: #FFFFFF;
+        text-transform: uppercase;        
         font-weight: bold;
-        font-size: 22px;
+        font-size: 22px;        
+    }
+    a{
+        color: #FFFFFF;
         text-decoration: none;
+
+    }
+    .links:hover {
+        color: #2716c7;
+      }
+    .titulo_topo{
+        text-align: center;
+        padding: 2%;
+    }
+    nav li img{
+        max-width: 25px;
+        text-align: center;
+    }
+    .foto_comp img{
+        max-width: 500px;
+        padding: 20px;
+
+        }
+    .foto_comp{
+        padding: 20px;
     }
 
